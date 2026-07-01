@@ -144,3 +144,4 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+Add-Content .gitignore "`n# Terraform`n.terraform/`n*.tfstate`n*.tfstate.backup`n*.tfvars.backup`nterraform.tfplan"
